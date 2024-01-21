@@ -1,7 +1,7 @@
 import streamlit as st
 import PyPDF2
 from io import BytesIO
-st.set_page_config(page_title="PDF Editor", page_icon="favicon.png", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="PDF Merger", page_icon="favicon.png", layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.title("PDF Merger App")
 
 
