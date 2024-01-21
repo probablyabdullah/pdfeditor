@@ -1,8 +1,9 @@
 import streamlit as st
 import PyPDF2
 from io import BytesIO
-
+st.set_page_config(page_title="PDF Editor", page_icon="favicon.png", layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.title("PDF Merger App")
+
 
 
 # Use st.file_uploader to allow users to upload files with drag-and-drop support
